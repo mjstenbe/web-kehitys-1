@@ -12,7 +12,8 @@ Klikkaa minua Näytä taulukko Sijainti
 2. Toinen painike kutsuu kirjoittamaasi funktiota nimeltä showTable(). `showTable`-funktio tulostaa sivulle itse määrittelemäsi HTML-taulukon (alla) sivulle.
 
 - Vinkki: Määrittele taulukko käyttäen backtick merkkejä eli ` -merkkejä.
-- Vinkki:Etsi taulukolle sopiva paikka käyttäen `document.querySelector() -funktiota`. Käytä innerHTML-kenttää sisällön
+- Määrittele kenttien sisältö muuttujina backtick-merkkien sisällä, esim. ${nimi} ja ${tehtava}. Esittele muuttjien arvot JS-koodissa ennen niiden tulostamista.
+- Vinkki:Kun saat tulostuksen toimimaan, voit etsiä taulukolle sopivan paikan käyttäen `document.querySelector() -funktiota`. Käytä innerHTML-kenttää sisällön
 
 Voit vapaasti muokata taulukon tietoja.
 
@@ -21,8 +22,6 @@ Voit vapaasti muokata taulukon tietoja.
 |   Tiger Nixon   |      System Architect       |  $320,800  |
 | Garrett Winters |         Accountant          |  $170,750  |
 |   Ashton Cox    |   Junior Technical Author   |  $86,000   |
-|  Cedric Kelly   | Senior Javascript Developer |  $433,060  |
-|   Airi Satou    |         Accountant          |  $162,700  |
 
 ## Harjoitus 2
 
